@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Welcome, {{ username }}</h1>
+    <p>Client IP: {{ client_ip }}</p>
+    <p>Server Name: {{ server_name }}</p>
+    <p>Server IP: {{ server_ip }}</p>
+    <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>
